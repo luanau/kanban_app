@@ -14,7 +14,8 @@ const PATHS = {
   build: path.join(__dirname, 'build')
 };
 
-// module.exports = {
+
+process.env.BABEL_ENV = TARGET;
 
 const common = {
 
